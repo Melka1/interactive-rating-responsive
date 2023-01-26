@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(216deg, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  margin: 0;
+}
+
+.rating, .thanks {
+  width: 350px;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: #212832;
+}
+.rating .star--container, .thanks .star--container {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #262f38;
+}
+.rating .desc, .rating .thank--desc, .thanks .desc, .thanks .thank--desc {
+  color: hsl(217deg, 12%, 63%);
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+.rate--buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.rate--buttons div {
+  font-weight: 700;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #262f38;
+  color: hsl(217deg, 12%, 63%);
+  cursor: pointer;
+}
+.rate--buttons div:hover {
+  background-color: hsl(25deg, 99%, 54%);
+  color: white;
+}
+.rate--buttons div:active {
+  background-color: #7d8798;
+}
+
+.submit {
+  width: 100%;
+  margin-top: 25px;
+  border-radius: 25px;
+  padding: 10px 0;
+  border: none;
+  background-color: hsl(25deg, 97%, 53%);
+  color: white;
+  font-family: "Overpass", sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.submit:hover {
+  color: hsl(25deg, 97%, 53%);
+  background-color: white;
+}
+
+.name {
+  color: whitesmoke;
+}
+
+.thanks {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.thanks .thank--desc {
+  text-align: center;
+}
+.thanks .choice {
+  background-color: #262f38;
+  color: hsl(25deg, 97%, 53%);
+  padding: 5px 20px;
+  margin-top: 25px;
+  font-size: 0.8rem;
+  border-radius: 20px;
+}/*# sourceMappingURL=styles.css.map */
