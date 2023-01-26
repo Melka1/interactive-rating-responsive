@@ -97,3 +97,13 @@ body {
         border-radius: 20px;
     }
 }
+
+@media screen and (width<=375px) {
+    body {
+        padding: 30px;
+    } 
+    .rating, .thanks {
+        width:100%;
+        padding: 25px;
+    }
+}

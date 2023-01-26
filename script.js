@@ -1,4 +1,4 @@
-let chose = "";
+let chose = "0";
 
 function handleChose(name){
     var boc = document.getElementById(name)
